@@ -2,12 +2,20 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #ff5e14;
 }
 
 .container{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+header{
+    text-align: center;
+    font-size: 48px;
+    background-color: #333;
+    padding: 20px 0;
 }
 
 footer{
