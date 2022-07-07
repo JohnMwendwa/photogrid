@@ -18,6 +18,18 @@ header{
     padding: 20px 0;
 }
 
+img{
+    width: 100%;
+}
+main{
+    padding: 15px 20px;
+}
+.img{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+
 footer{
     margin-top: auto;
     padding: 30px 30px;
