@@ -20,4 +20,14 @@ header{
 
 footer{
     margin-top: auto;
+    padding: 30px 30px;
+    background-color: #3d3c3c;
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+.copyright a{
+    text-decoration: none;
+    color:#ff5e14;
 }
